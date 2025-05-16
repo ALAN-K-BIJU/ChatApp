@@ -53,7 +53,7 @@
   <img src="https://github.com/ALAN-K-BIJU/ChatApp/blob/main/screenshots/update.jpg" alt="Update UI" width="250" height="500"/>
   <img src="https://github.com/ALAN-K-BIJU/ChatApp/blob/main/screenshots/chat1.jpg" alt="Chat Screen 1" width="250" height="500"/>
   <img src="https://github.com/ALAN-K-BIJU/ChatApp/blob/main/screenshots/chat2.jpg" alt="Chat Screen 2" width="250" height="500"/>
-  <img src="https://github.com/ALAN-K-BIJU/ChatApp/blob/main/screenshots/chars.jpg" alt="User List Screen" width="250" height="500"/>
+  <img src="https://github.com/ALAN-K-BIJU/ChatApp/blob/main/screenshots/chats.jpg" alt="User List Screen" width="250" height="500"/>
 </p>
 
 ---
