@@ -1,42 +1,72 @@
-# Firebase Chat App
+# 💬 ChatApp
 
-Welcome to the Firebase Chat App repository! This app enables real-time chat functionality using Firebase as the backend. Below is a list of key files and their functionalities:
+**ChatApp** is a real-time messaging Android application developed in Java. It leverages Firebase Authentication, Realtime Database, and Firebase Cloud Messaging (FCM) to provide seamless and secure communication between users.
 
-## Activity Files
+---
 
-- `ChatActivity.java`: The main activity for individual chat conversations.
-- `LoginOtpActivity.java`: Handles user authentication using OTP.
-- `LoginPhoneNumberActivity.java`: Manages phone number-based user login.
-- `LoginUsernameActivity.java`: Controls user login using a username.
-- `MainActivity.java`: The app's entry point and primary navigation hub.
-- `SearchUserActivity.java`: Allows users to search for other users to initiate chats.
-- `SplashActivity.java`: Displays a splash screen while the app initializes.
+## 🚀 Features
 
-## Fragment Files
+- 📲 Phone number & username-based login (OTP authentication)
+- 💬 One-to-one chat with real-time updates
+- 🔍 Search and connect with other users
+- 🔔 Firebase Cloud Messaging for push notifications
+- 👤 Profile viewing and editing
+- 🎨 Smooth navigation with modern UI components
 
-- `ChatFragment.java`: Manages chat UI and logic within the chat activity.
-- `ProfileFragment.java`: Handles user profile display and editing.
-- `SearchUserFragment.java`: Displays user search results and options for starting a chat.
+---
 
-## Service File
+## 🧭 Project Structure
 
-- `FCMNotificationService.java`: Integrates Firebase Cloud Messaging for push notifications.
+### 📂 Activity Files
+- **`ChatActivity.java`**: Manages individual chat sessions.
+- **`LoginOtpActivity.java`**: Handles OTP-based user authentication.
+- **`LoginPhoneNumberActivity.java`**: Manages login using phone numbers.
+- **`LoginUsernameActivity.java`**: Allows login via username.
+- **`MainActivity.java`**: Primary app hub and screen controller.
+- **`SearchUserActivity.java`**: Enables searching users to initiate chats.
+- **`SplashActivity.java`**: Displays the splash screen during initialization.
 
-Feel free to explore these files to understand the structure of the app and how different components interact. The app leverages Firebase Authentication, Realtime Database, and Firebase Cloud Messaging to provide seamless chat functionality.
+### 🧩 Fragment Files
+- **`ChatFragment.java`**: Chat UI and logic.
+- **`ProfileFragment.java`**: User profile view/edit.
+- **`SearchUserFragment.java`**: User search results and chat options.
 
-## Getting Started
+### 🛎️ Service File
+- **`FCMNotificationService.java`**: Firebase Cloud Messaging integration for push notifications.
 
-To use this app:
+---
 
-1. Clone or download the repository.
-2. Set up your Firebase project and update the `google-services.json` file.
-3. Build and run the app on your Android device or emulator.
+## 🔧 Tech Stack
 
-## Notes
+- **Language:** Java
+- **Architecture:** MVVM
+- **Database:** Firebase Realtime Database
+- **Auth:** Firebase Authentication
+- **Notifications:** Firebase Cloud Messaging
+- **UI:** Material Design + Fragments
 
-- This repository provides a basic structure for a Firebase-based chat app. You can extend and customize it as per your requirements.
-- Make sure to handle security and privacy aspects when implementing user authentication and chat features.
+---
 
-For more details about Firebase services and Android app development, refer to the official [Firebase Documentation](https://firebase.google.com/docs) and [Android Documentation](https://developer.android.com/docs).
+## 📸 Screenshots
 
-Happy coding!
+<p align="center">
+  <img src="https://github.com/ALAN-K-BIJU/ChatApp/blob/main/screenshots/update.jpg" alt="Update UI" width="250" height="500"/>
+  <img src="https://github.com/ALAN-K-BIJU/ChatApp/blob/main/screenshots/chat1.jpg" alt="Chat Screen 1" width="250" height="500"/>
+  <img src="https://github.com/ALAN-K-BIJU/ChatApp/blob/main/screenshots/chat2.jpg" alt="Chat Screen 2" width="250" height="500"/>
+  <img src="https://github.com/ALAN-K-BIJU/ChatApp/blob/main/screenshots/chars.jpg" alt="User List Screen" width="250" height="500"/>
+</p>
+
+---
+
+## 🔍 Explore the Code
+
+Each file is well-commented and modular, making it beginner-friendly for those learning Android app development with Firebase integration.
+
+---
+
+## 🚀 Getting Started
+
+### Clone & Run
+```bash
+git clone https://github.com/ALAN-K-BIJU/ChatApp.git
+
